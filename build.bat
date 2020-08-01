@@ -1,1 +1,1 @@
-mvn clean generate-sources package && cd jplag && mvn clean generate-sources assembly:assembly
+mvn clean generate-sources install && cd jplag && mvn clean generate-sources assembly:assembly
