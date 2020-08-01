@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aggregator.iml" filepath="$PROJECT_DIR$/aggregator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend.chars/chars.iml" filepath="$PROJECT_DIR$/jplag.frontend.chars/chars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend.cpp/cpp.iml" filepath="$PROJECT_DIR$/jplag.frontend.cpp/cpp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend.csharp-1.2/csharp-1.2.iml" filepath="$PROJECT_DIR$/jplag.frontend.csharp-1.2/csharp-1.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/csharp-latest.iml" filepath="$PROJECT_DIR$/csharp-latest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend-utils/frontend-utils.iml" filepath="$PROJECT_DIR$/jplag.frontend-utils/frontend-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend.java-1.1exp/java-1.1exp.iml" filepath="$PROJECT_DIR$/jplag.frontend.java-1.1exp/java-1.1exp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend.java-1.2/java-1.2.iml" filepath="$PROJECT_DIR$/jplag.frontend.java-1.2/java-1.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend.java-1.5/java-1.5.iml" filepath="$PROJECT_DIR$/jplag.frontend.java-1.5/java-1.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend.java-1.7/java-1.7.iml" filepath="$PROJECT_DIR$/jplag.frontend.java-1.7/java-1.7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag/jplag.iml" filepath="$PROJECT_DIR$/jplag/jplag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend.csharp-latest.iml" filepath="$PROJECT_DIR$/jplag.frontend.csharp-latest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.parent/parent.iml" filepath="$PROJECT_DIR$/jplag.parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend.python-3/python-3.iml" filepath="$PROJECT_DIR$/jplag.frontend.python-3/python-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend.scheme/scheme.iml" filepath="$PROJECT_DIR$/jplag.frontend.scheme/scheme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend.text/text.iml" filepath="$PROJECT_DIR$/jplag.frontend.text/text.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.utils/utils.iml" filepath="$PROJECT_DIR$/jplag.utils/utils.iml" />
+    </modules>
+  </component>
+</project>
