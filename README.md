@@ -1,11 +1,24 @@
-# Download and Run JPlag
-Download a released version - all releases are single-JAR releases.
+# Downloading, Building and Running JPlag
 
-Type `java -jar jplag-yourVersion.jar` in a console to see the command line options.
-The options as of 2017/09/17 are:
+## Downloading JPlag
+As this is a forked repository and contains a new language that is not published yet (latest C#), it is recommended to install by either downloading or cloning this repository to a suitable location and then running the build batch script. 
+
+However, if this is not neccessary you can use the [Original JPlag](http://github.com/jplag/jplag) and download a released version - all releases are single-JAR releases.
+
+## Building JPlag
+To build and run a local installation of JPlag, you can use the pom.xml in this directory (aggregator). It builds JPlag and the available frontends. 
+
+
+Alternatively you can use the `build` batch script included in the base directory which will build all modules, and then produce the file in the jplag\target directory. This simplifies the process somewhat.
+
+To generate single modules run `mvn clean generate-sources package` in the base directory(aggregator); if you want a single file then run `mvn clean generate-sources assembly:assembly` inside the `jplag` directory. You will find the JARs in the respective `target` directories. If you build a single JAR, it will be generated in `jplag/target` .
+
+## Running JPlag
+Type `java -jar jplag-yourVersion-jar-with-dependencies.jar` in a console to see the command line option. The current latest version is 2.12.
+The options as of 02/08/2020 are:
 
 ```
-JPlag (Version 2.11.9-SNAPSHOT), Copyright (c) 2004-2017 KIT - IPD Tichy, Guido Malpohl, and others.
+JPlag (Version 2.12), Copyright (c) 2004-2017 KIT - IPD Tichy, Guido Malpohl, and others.
 Usage: JPlag [ options ] [<root-dir>] [-c file1 file2 ...]
  <root-dir>        The root-directory that contains all submissions
 
@@ -34,7 +47,7 @@ options are:
  -bc <dir>       Name of the directory which contains the basecode (common framework)
  -c [files]      Compare a list of files.
  -l <language>   (Language) Supported Languages:
-                 java17 (default), java15, java15dm, java12, java11, python3, c/c++, c#-1.2, char, text, scheme
+                 java17 (default), java15, java15dm, java12, java11, python3, c/c++, c#-1.2, c#-latest, char, text, scheme
 ```
 
 ## Example
@@ -62,11 +75,6 @@ JPlag will ignore all files that end with one of the suffixes.
 Example: `java -jar jplag-yourVersion.jar -l java17 -c student1_file student2_file student3_file`
 This option must be the last one.
 JPlag will compare just a list of files pairwise.
-
-# Building JPlag
-To build and run a local installation of JPlag, you can use the pom.xml in this directory (aggregator). It builds JPlag and the available frontends. 
-
-To generate single modules run `mvn clean generate-sources package` in the base directory; if you want a single file then run `mvn clean generate-sources assembly:assembly` inside the `jplag` directory. You will find the JARs in the respective `target` directories. If you build a single JAR, it will be generated in `jplag/target`.
 
 ## Web Service
 Installing, running and maintaining a local web service is not recommended as the web service uses outdated libraries and (really) needs polishing.
