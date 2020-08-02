@@ -13,6 +13,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="csharp-latest" />
     <orderEntry type="module" module-name="frontend-utils" />
     <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
     <orderEntry type="module" module-name="java-1.1exp" />
@@ -25,6 +26,7 @@
     <orderEntry type="library" name="Maven: org.antlr:antlr4-annotations:4.2" level="project" />
     <orderEntry type="module" module-name="python-3" />
     <orderEntry type="module" module-name="csharp-1.2" />
+    <orderEntry type="module" module-name="csharp-latest" />
     <orderEntry type="module" module-name="cpp" />
     <orderEntry type="module" module-name="scheme" />
     <orderEntry type="module" module-name="chars" />

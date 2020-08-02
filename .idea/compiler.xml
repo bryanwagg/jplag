@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="frontend-utils" />
-        <module name="scheme" />
-        <module name="java-1.1exp" />
-        <module name="java-1.2" />
-        <module name="text" />
-        <module name="chars" />
-        <module name="java-1.7" />
-        <module name="java-1.5" />
         <module name="csharp-1.2" />
-        <module name="cpp" />
-        <module name="jplag" />
-        <module name="utils" />
+        <module name="frontend-utils" />
         <module name="python-3" />
+        <module name="text" />
+        <module name="utils" />
+        <module name="scheme" />
+        <module name="chars" />
+        <module name="csharp-latest" />
+        <module name="jplag" />
+        <module name="java-1.2" />
+        <module name="java-1.7" />
+        <module name="cpp" />
+        <module name="java-1.5" />
+        <module name="java-1.1exp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +27,7 @@
       <module name="chars" target="1.7" />
       <module name="cpp" target="1.7" />
       <module name="csharp-1.2" target="1.7" />
+      <module name="csharp-latest" target="1.7" />
       <module name="frontend-utils" target="1.7" />
       <module name="java-1.1exp" target="1.7" />
       <module name="java-1.2" target="1.7" />

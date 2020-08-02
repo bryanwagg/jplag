@@ -38,6 +38,7 @@ public abstract class Options {
 			"python3","jplag.python3.Language",
 			"c/c++", "jplag.cpp.Language",
 			"c#-1.2", "jplag.csharp.Language",
+			"c#-latest", "jplag.csharpLatest.Language",
 			"char", "jplag.chars.Language",
 			"text", "jplag.text.Language",
 			"scheme", "jplag.scheme.Language",

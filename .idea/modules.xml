@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/jplag.frontend.chars/chars.iml" filepath="$PROJECT_DIR$/jplag.frontend.chars/chars.iml" />
       <module fileurl="file://$PROJECT_DIR$/jplag.frontend.cpp/cpp.iml" filepath="$PROJECT_DIR$/jplag.frontend.cpp/cpp.iml" />
       <module fileurl="file://$PROJECT_DIR$/jplag.frontend.csharp-1.2/csharp-1.2.iml" filepath="$PROJECT_DIR$/jplag.frontend.csharp-1.2/csharp-1.2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/csharp-latest.iml" filepath="$PROJECT_DIR$/csharp-latest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jplag.frontend.csharp-latest/csharp-latest.iml" filepath="$PROJECT_DIR$/jplag.frontend.csharp-latest/csharp-latest.iml" />
       <module fileurl="file://$PROJECT_DIR$/jplag.frontend-utils/frontend-utils.iml" filepath="$PROJECT_DIR$/jplag.frontend-utils/frontend-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/jplag.frontend.java-1.1exp/java-1.1exp.iml" filepath="$PROJECT_DIR$/jplag.frontend.java-1.1exp/java-1.1exp.iml" />
       <module fileurl="file://$PROJECT_DIR$/jplag.frontend.java-1.2/java-1.2.iml" filepath="$PROJECT_DIR$/jplag.frontend.java-1.2/java-1.2.iml" />
